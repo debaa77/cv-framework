@@ -21,10 +21,24 @@
       </section>
   
       <!-- About Section -->
-      <section id="about" class="py-16 bg-gray-800">
-        <div class="container mx-auto px-4">
-          <h3 class="text-3xl font-semibold mb-6">About Me</h3>
-          <p>Nama saya Angger Abednego, Saya adalah mahasiswa jurusan Teknologi Informasi di Universitas Brawijaya. Saya memiliki minat besar di bidang teknologi, branding, dan digital marketing.</p>
+    <section id="about" class="py-16 bg-gray-800">
+      <div class="container mx-auto px-4 flex flex-col md:flex-row items-center">
+        <!-- Foto Profile dengan Background Brush -->
+        <div class="relative w-40 h-40 md:w-64 md:h-64 mb-6 md:mb-0 md:mr-10">
+          <!-- Brush Background -->
+          <div class="absolute -top-4 -left-4 w-full h-full rounded-full">
+            <img src="/brush-bg1.png" alt="Brush Stroke Background" class="w-full h-full object-cover rounded-full opacity-80">
+          </div>
+          <!-- Foto Profile -->
+          <div class="relative w-full h-full rounded-full overflow-hidden border-4 border-teal-300 hover:border-teal-500 transition-all duration-300">
+            <img src="/profilee.png" alt="Foto Profil" class="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300">
+          </div>
+        </div>
+          <!-- Deskripsi Tentang Saya -->
+          <div class="text-center md:text-left">
+            <h3 class="text-3xl font-semibold mb-4">About Me</h3>
+            <p>Nama saya Angger Abed Nego, Saya adalah mahasiswa jurusan Teknologi Informasi di Universitas Brawijaya. Saya memiliki minat besar di bidang teknologi, branding, dan digital marketing.</p>
+          </div>
         </div>
       </section>
   
@@ -53,7 +67,7 @@
           <h3 class="text-3xl font-semibold mb-6">Contact</h3>
           <div class="flex justify-center space-x-4">
             <a href="https://www.linkedin.com/in/angger-abednego-1404-bdvy" class="hover:scale-110 transition-transform"><img src="/linkedin.png" alt="LinkedIn" class="w-8 h-8"></a>
-            <a href="mailto:anggerabednego14@gmail.com" class="hover:scale-110 transition-transform"><img src="/email.png" alt="Email" class="w-8 h-8"></a>
+            <a href="mailto:anggerabednego14@gmail.com" class="hover:scale-110 transition-transform"><img src="/gmail.png" alt="Email" class="w-8 h-8"></a>
           </div>
         </div>
       </section>
